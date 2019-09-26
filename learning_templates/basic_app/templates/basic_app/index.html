@@ -1,0 +1,9 @@
+{% extends "basic_app/base.html" %}
+{% load my_extras %}
+  {% block body_block%}
+    <h3>index page</h3>
+    <h3>ineritance</h3>
+    {{ text|cut:'world' }}
+    {{ number|add:'56' }}
+
+    {% endblock %}
